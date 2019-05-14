@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/x_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/flag"
+            android:layout_centerInParent="true" />
+
+        <Button
+            android:id="@+id/x_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bu_text"
+            android:layout_below="@id/x_text"
+            android:layout_marginTop="50dp"
+            android:layout_centerInParent="true"/>
+
+        <EditText
+            android:id="@+id/x_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:layout_above="@id/x_text"
+            android:layout_marginBottom="50dp"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
